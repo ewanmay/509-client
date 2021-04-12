@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: white;
+  transition: transform 200ms ease 0s;
+  user-select: none; 
+  overflow-y: auto;
+  z-index: 1;
+}
+
+.navbar a, .navbar div, .navbar i {
+  color: #95AFCD;
+  font-weight: 500;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.navbar {
+  border-bottom: 2px solid #95AFCD
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 100%;
+  word-break: break-word;
+}
+
+.column {
+  flex-direction: column;
+}
+
+
+.fill {
+  flex: 1 1
+}
+
+.fit {
+  flex: 0 1
+}
+a {
+  color: white;
+}
+
+a:hover {
+  color: #95AFCD;
+  text-decoration: none;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  vertical-align: center;
+}
+
+.middle {
+  justify-content: center;
+  text-align: center;
+}
+
+.left {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  text-align: start;
+  vertical-align: center;
+}
+
+.right {
+  justify-content: flex-end;
+  align-items: center;
+  text-align: end;
+  vertical-align: center;
+}
+
+.top {
+  align-items: start;
+  align-content: flex-start;
+  vertical-align: top;
+}
+
+.house {
+  position: absolute;
+  left: calc(50% - 1154 / 2);
+  width: 1154px;
+  height: 727px;
+  top: calc(50% - 727 / 2);
+  background-image: url('./assets/House.svg');
+}
+
+.webcam-left {
+  position: absolute;
+  left: 140px;
+  bottom: 97px;
+}
+
+
+.webcam-right {
+  position: absolute;
+  right: 136px;
+  bottom: 97px;
+}
+
+.top-text {
+  position: absolute;
+  z-index: 300;
+  color: white;
+  top: -200px;  
+  font-size: 40px;
+}
+
+.status-text
+ {   
+  position: absolute;
+  z-index: 300;
+  top: -160px;  
+  font-size: 50px;
+ }
