@@ -1,5 +1,4 @@
 import React, { useContext, useEffect } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Video from './components/Video';
 import { AppContext } from './context/context';
